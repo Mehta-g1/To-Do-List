@@ -19,7 +19,7 @@ The application provides options to add, view, delete, save, and load tasks from
 - **Cross-Platform Compatibility**: Works on Windows, macOS, and Linux.
 
 ## Prerequisites
-- Python 3.x installed on your system.
+- Python installed on your system.
 
 ## Usage
 1. Select an option from the menu:
@@ -31,8 +31,8 @@ The application provides options to add, view, delete, save, and load tasks from
 2. Follow the prompts to manage tasks effectively.
 
 ## File Storage
-- Tasks are saved in `task.txt`.
-- When loading, the application reads from `task.txt` and restores the task list.
+- Tasks are saved in `TaskList.txt`.
+- When loading, the application reads from `TaskList.txt` and restores the task list.
 
 ## Error Handling
 - Prevents invalid input types.
