@@ -38,21 +38,9 @@ A simple Python-based task manager that allows users to add, view, delete, save,
 
 ## How to Use
 
-### 1. Clone the Repository
-```sh
-git clone https://github.com/your-username/task-manager.git
-cd task-manager
-2. Run the Script
-sh
-Copy
-Edit
-python task_manager.py
-3. Use the Menu Options
-After running the script, you will see the following menu:
+#After running the script, you will see the following menu:
 
-markdown
-Copy
-Edit
+
 1. Add Task
 2. View Task
 3. Delete Task
