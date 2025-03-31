@@ -1,63 +1,44 @@
-# Task Manager
+# Command-Line To-Do List Application
 
-A simple Python-based task manager that allows users to add, view, delete, save, and load tasks.
+## Description
+This is a simple command-line To-Do List application that allows users to manage their daily tasks efficiently. 
+The application provides options to add, view, delete, save, and load tasks from a file.
 
 ## Features
-- **Add Task**: Add new tasks to your task list.
-- **View Tasks**: Display all saved tasks.
-- **Delete Task**: Remove a specific task by its number.
-- **Save Tasks**: Save tasks to a file (`TaskList.txt`) for future use.
-- **Load Tasks**: Automatically load saved tasks when the program starts.
+- **Add Tasks**: Users can add new tasks to the list.
+- **View Tasks**: Displays all the current tasks.
+- **Delete Tasks**: Users can remove completed or unnecessary tasks.
+- **Save Tasks**: Saves tasks to a text file for future use.
+- **Load Tasks**: Loads previously saved tasks from a file.
+- **Error Handling**: Handles invalid user inputs and file operations gracefully.
 
-## Functions Overview
+## Technical Requirements
+- **File Handling**: Uses Python’s file I/O operations to read and write task data.
+- **Data Structure**: Stores tasks in a list.
+- **User Interface**: Simple text-based interface.
+- **Cross-Platform Compatibility**: Works on Windows, macOS, and Linux.
 
-### `AddTask()`
-- Prompts the user to enter a task.
-- Adds the task to the `tasklist` list.
-- Displays a success message.
+## Prerequisites
+- Python 3.x installed on your system.
 
-### `ViewTask()`
-- Displays the list of tasks.
-- If the list is empty, it shows a message indicating no tasks are available.
+## Usage
+1. Select an option from the menu:
+   - Press `1` to add a task.
+   - Press `2` to view tasks.
+   - Press `3` to delete a task.
+   - Press `4` to save tasks to a file.
+   - Press `5` to exit.
+2. Follow the prompts to manage tasks effectively.
 
-### `DeleteTask()`
-- Calls `ViewTask()` to display tasks.
-- Asks the user to enter the task number to delete.
-- Deletes the specified task and updates the list.
-- Handles invalid inputs gracefully.
+## File Storage
+- Tasks are saved in `task.txt`.
+- When loading, the application reads from `task.txt` and restores the task list.
 
-### `SaveTask()`
-- Writes all tasks to `TaskList.txt` file.
-- Displays a success message after saving.
-- Handles cases where there are no tasks to save.
+## Error Handling
+- Prevents invalid input types.
+- Ensures the application doesn’t crash due to missing files.
+- Checks for empty task lists before performing operations.
 
-### `Loadtask()`
-- Reads tasks from `TaskList.txt` (if available).
-- Loads the tasks into `tasklist` when the program starts.
-- Displays a message indicating tasks were loaded.
-
-## How to Use
-
-1. Add Task
-2. View Task
-3. Delete Task
-4. Save & Load Task
-5. Exit
-
-Press 1 to add a task.
-
-Press 2 to view tasks.
-
-Press 3 to delete a task.
-
-Press 4 to manually save tasks.
-
-Press 5 to save and exit the program.
-
-Notes
-The program automatically loads saved tasks when it starts.
-
-Tasks are saved in TaskList.txt.
-
-If the file is missing, it will create a new one when saving.
-
+## Author
+- **Vikash Kumar Mehta**  
+- GitHub: [Vikash Kumar Mehta](https://github.com/mehta-g1)
