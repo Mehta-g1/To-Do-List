@@ -41,11 +41,14 @@ A simple Python-based task manager that allows users to add, view, delete, save,
 #After running the script, you will see the following menu:
 
 
+
+
 1. Add Task
 2. View Task
 3. Delete Task
 4. Save & Load Task
 5. Exit
+
 Press 1 to add a task.
 
 Press 2 to view tasks.
