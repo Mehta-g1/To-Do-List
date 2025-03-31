@@ -38,11 +38,6 @@ A simple Python-based task manager that allows users to add, view, delete, save,
 
 ## How to Use
 
-#After running the script, you will see the following menu:
-
-
-
-
 1. Add Task
 2. View Task
 3. Delete Task
@@ -66,5 +61,3 @@ Tasks are saved in TaskList.txt.
 
 If the file is missing, it will create a new one when saving.
 
-License
-This project is open-source. Feel free to modify and use it as needed.
