@@ -66,8 +66,6 @@ def Loadtask():
             i += 1
         file.close()
         print(i, "task(s) loaded from file")
-    except FileNotFoundError:
-        print("Nothing to do Today!")
     except Exception:
         print("Unknown Exception from LoadTask()")
 
